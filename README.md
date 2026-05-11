@@ -32,9 +32,23 @@ The system is designed to replicate and enhance traditional credit underwriting 
 - Data-driven feature engineering  
 - Behavioural clustering of SMEs  
 - Adaptive handling of incomplete financial data  
-- Transparent, explainable risk outputs  
+- Transparent, explainable risk outputs
 
----
+###🧪 Tech Stack
+Python 🐍
+Streamlit (UI)
+Pandas & NumPy (data processing)
+Scikit-learn (ML pipeline)
+XGBoost (risk model)
+Plotly (visualizations)
+Joblib (model persistence)
+
+###🚀 Live Demo
+Local URL: http://localhost:8502
+Network URL: http://192.168.1.184:8502
+
+🚀 Streamlit Cloud
+https://sme-credit-risk-scoring-app-xadzpa4xvatoo2hk5zm5jj.streamlit.app/
 
 ## 🎯 Goal
 
@@ -106,22 +120,6 @@ Explainability Layer (Risk Breakdown)
 Behavioural Clustering / Persona Tagging
    ↓
 Report Generation (PDF/Text Output)
-
-###🧪 Tech Stack
-Python 🐍
-Streamlit (UI)
-Pandas & NumPy (data processing)
-Scikit-learn (ML pipeline)
-XGBoost (risk model)
-Plotly (visualizations)
-Joblib (model persistence)
-
-###🚀 Live Demo
-Local URL: http://localhost:8502
-Network URL: http://192.168.1.184:8502
-
-🚀 Streamlit Cloud
-https://sme-credit-risk-scoring-app-xadzpa4xvatoo2hk5zm5jj.streamlit.app/
 
 ### Installation
 git clone https://github.com/kerubobosire254/sme-credit-risk-platform.git
