@@ -93,6 +93,12 @@ XGBoost (risk model)
 Plotly (visualizations)
 Joblib (model persistence)
 
+🚀 Live Demo
+Local URL: http://localhost:8502
+Network URL: http://192.168.1.184:8502
+
+🚀 Streamlit Cloud
+
 ### Installation
 git clone https://github.com/kerubobosire254/sme-credit-risk-platform.git
 cd sme-credit-risk-platform
