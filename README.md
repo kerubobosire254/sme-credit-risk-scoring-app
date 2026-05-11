@@ -1,21 +1,44 @@
-# 🧠 SME Credit Risk Scoring Platform
+# 🧠 SME Credit Risk Intelligence System
 
-An AI-powered credit risk intelligence system that evaluates SMEs using financial data, predicts probability of default, 
-and generates explainable credit reports with behavioural insights and industry benchmarking.
+## 🚨 Problem Statement
 
+Access to credit remains one of the biggest barriers to SME growth, especially in emerging markets.
 
-## 🚀 Project Overview
+Despite SMEs being the backbone of economic activity, most financial institutions struggle to accurately assess their creditworthiness due to:
 
-This system is designed to simulate a real-world credit underwriting engine used in fintech and lending institutions.
+- Incomplete or inconsistent financial records  
+- Heavy reliance on collateral-based lending models  
+- Lack of standardized financial reporting among SMEs  
+- Limited visibility into cash flow behaviour and repayment patterns  
+- High levels of informal or semi-formal financial activity  
 
-It enables users to:
-- Upload SME financial data (CSV / Excel)
-- Automatically engineer financial risk features
-- Predict Probability of Default (PD)
-- Generate an interpretable credit score
-- Classify SMEs into behavioural risk personas
-- Compare performance against industry benchmarks
-- Download a structured credit risk report
+As a result, many viable SMEs are incorrectly classified as high-risk, leading to:
+- Credit under-approval  
+- Over-reliance on manual underwriting  
+- Slow loan processing cycles  
+- Inefficient risk pricing  
+
+## 💡 Solution
+
+This project proposes an **AI-driven SME Credit Risk Intelligence Platform** that transforms raw SME financial data into:
+
+- A probability of default (PD) score  
+- An interpretable credit score  
+- Behavioural risk segmentation  
+- Industry-relative benchmarking  
+- Explainable risk breakdowns  
+
+The system is designed to replicate and enhance traditional credit underwriting by introducing:
+- Data-driven feature engineering  
+- Behavioural clustering of SMEs  
+- Adaptive handling of incomplete financial data  
+- Transparent, explainable risk outputs  
+
+---
+
+## 🎯 Goal
+
+To enable faster, fairer, and more accurate SME credit decisions by replacing rigid traditional scoring methods with a flexible, explainable machine learning-based risk engine.
 
 ## 🧠 Key Features
 
@@ -84,7 +107,7 @@ Behavioural Clustering / Persona Tagging
    ↓
 Report Generation (PDF/Text Output)
 
-🧪 Tech Stack
+###🧪 Tech Stack
 Python 🐍
 Streamlit (UI)
 Pandas & NumPy (data processing)
@@ -93,11 +116,12 @@ XGBoost (risk model)
 Plotly (visualizations)
 Joblib (model persistence)
 
-🚀 Live Demo
+###🚀 Live Demo
 Local URL: http://localhost:8502
 Network URL: http://192.168.1.184:8502
 
 🚀 Streamlit Cloud
+https://sme-credit-risk-scoring-app-xadzpa4xvatoo2hk5zm5jj.streamlit.app/
 
 ### Installation
 git clone https://github.com/kerubobosire254/sme-credit-risk-platform.git
