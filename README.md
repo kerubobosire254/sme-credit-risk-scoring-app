@@ -38,6 +38,19 @@ The system is designed to replicate and enhance traditional credit underwriting 
 
 To enable faster, fairer, and more accurate SME credit decisions by replacing rigid traditional scoring methods with a flexible, explainable machine learning-based risk engine.
 
+## 🚀 Project Overview
+
+This system is designed to simulate a real-world credit underwriting engine used in fintech and lending institutions.
+
+It enables users to:
+- Upload SME financial data (CSV / Excel)
+- Automatically engineer financial risk features
+- Predict Probability of Default (PD)
+- Generate an interpretable credit score
+- Classify SMEs into behavioural risk personas
+- Compare performance against industry benchmarks
+- Download a structured credit risk report
+
 # 🧪 Tech Stack
 - Python 🐍
 - Streamlit (UI)
