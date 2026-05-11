@@ -34,7 +34,7 @@ The system is designed to replicate and enhance traditional credit underwriting 
 - Adaptive handling of incomplete financial data  
 - Transparent, explainable risk outputs
 
-###🧪 Tech Stack
+🧪 Tech Stack
 Python 🐍
 Streamlit (UI)
 Pandas & NumPy (data processing)
@@ -43,7 +43,7 @@ XGBoost (risk model)
 Plotly (visualizations)
 Joblib (model persistence)
 
-###🚀 Live Demo
+🚀 Live Demo
 Local URL: http://localhost:8502
 Network URL: http://192.168.1.184:8502
 
