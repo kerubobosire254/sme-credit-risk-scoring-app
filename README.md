@@ -34,6 +34,10 @@ The system is designed to replicate and enhance traditional credit underwriting 
 - Adaptive handling of incomplete financial data  
 - Transparent, explainable risk outputs
 
+## 🎯 Goal
+
+To enable faster, fairer, and more accurate SME credit decisions by replacing rigid traditional scoring methods with a flexible, explainable machine learning-based risk engine.
+
 # 🧪 Tech Stack
 - Python 🐍
 - Streamlit (UI)
@@ -43,16 +47,12 @@ The system is designed to replicate and enhance traditional credit underwriting 
 - Plotly (visualizations)
 - Joblib (model persistence)
 
-#🚀 Live Demo
+# 🚀 Live Demo
 Local URL: http://localhost:8502
 Network URL: http://192.168.1.184:8502
 
 # 🚀 Streamlit Cloud
 https://sme-credit-risk-scoring-app-xadzpa4xvatoo2hk5zm5jj.streamlit.app/
-
-## 🎯 Goal
-
-To enable faster, fairer, and more accurate SME credit decisions by replacing rigid traditional scoring methods with a flexible, explainable machine learning-based risk engine.
 
 ## 🧠 Key Features
 
