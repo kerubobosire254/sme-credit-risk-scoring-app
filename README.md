@@ -1,31 +1,34 @@
 # 🧠 SME Credit Risk Intelligence Platform
 
-## 🚨 The Problem
+## Turning SME Financial Chaos into Intelligent Credit Decisions
 
-Small and Medium Enterprises (SMEs) drive economic growth, employment, and innovation across emerging markets. Yet despite their importance, access to affordable credit remains a major challenge.
+Small and Medium Enterprises (SMEs) are the backbone of emerging economies, driving employment, innovation, and economic growth. 
+Yet despite their importance, access to affordable credit remains one of their biggest challenges.
 
-Traditional lending systems were not designed for modern SMEs.
+Traditional lending systems were never built for modern SMEs.
 
 Most financial institutions still rely heavily on:
 - Collateral-based lending
-- Manual underwriting processes
+- Manual underwriting
 - Static financial ratios
 - Incomplete financial statements
 
-This creates a critical visibility problem: lenders struggle to distinguish genuinely risky SMEs from businesses that simply lack formal financial records.
+This creates a major visibility problem.
 
+Lenders struggle to distinguish genuinely risky businesses from SMEs that simply lack formal or structured financial records. 
 As a result:
-- High-potential SMEs are frequently denied credit
+- High-potential SMEs are denied financing
 - Loan approvals become slow and inconsistent
 - Risk pricing becomes inefficient
-- Credit teams spend excessive time on manual assessments
+- Credit teams spend excessive time on manual analysis
 - Informal businesses remain financially excluded
 
-The challenge is not necessarily the absence of viable businesses — it is the absence of intelligent, explainable risk assessment systems capable of handling incomplete and non-standard SME data.
+The challenge is not the absence of viable SMEs.  
+The challenge is the absence of intelligent, explainable systems capable of understanding incomplete and non-traditional business data.
 
 # 💡 Solution
 
-The **SME Credit Risk Intelligence Platform** is an AI-driven underwriting and risk analytics system designed to transform raw SME financial data into actionable credit intelligence.
+The SME Credit Risk Intelligence Platform is an AI-driven underwriting and risk analytics system designed to transform raw SME financial data into actionable credit intelligence.
 
 The platform combines:
 - Machine Learning risk prediction
@@ -36,24 +39,18 @@ The platform combines:
 
 to generate transparent, data-driven lending insights.
 
-Rather than replacing underwriters, the system is designed to augment credit decision-making by providing:
+Rather than replacing underwriters, the platform augments decision-making by providing:
 - Probability of Default (PD) estimation
 - Interpretable credit scoring
 - Risk driver analysis
 - SME behavioural profiling
-- Automated credit reporting
+- Automated credit assessment reports
 
-The platform is specifically designed for real-world SME environments where financial data may be incomplete, inconsistent, or semi-structured.
-
-# 🎯 Objectives
-
-The platform aims to:
-- Improve SME credit accessibility
-- Enable faster underwriting decisions
-- Reduce reliance on manual risk assessment
-- Support explainable and transparent lending
-- Enhance risk consistency across SME portfolios
-- Simulate intelligent fintech-style underwriting systems
+Built specifically for real-world SME environments, the platform is designed to handle:
+- Incomplete financial records
+- Semi-structured business data
+- Informal SME operational patterns
+- Limited credit history environments
 
 # 🚀 Project Overview
 
@@ -67,7 +64,6 @@ Users can:
 - Classify SMEs into behavioural personas
 - Compare SME performance against industry benchmarks
 - Download structured credit risk reports
-
 
 # 🧠 Key Capabilities
 
