@@ -1,7 +1,5 @@
 # 🧠 SME Credit Risk Intelligence Platform
 
-## Turning SME Financial Chaos into Intelligent Credit Decisions
-
 Small and Medium Enterprises (SMEs) are the backbone of emerging economies, driving employment, innovation, and economic growth. 
 Yet despite their importance, access to affordable credit remains one of their biggest challenges.
 
