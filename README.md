@@ -1,219 +1,163 @@
-# 🧠 SME Credit Risk Intelligence Platform
+# SME Credit Risk Intelligence Platform
 
-Small and Medium Enterprises (SMEs) are the backbone of emerging economies, driving employment, innovation, and economic growth. 
-Yet despite their importance, access to affordable credit remains one of their biggest challenges.
+> XGBoost-powered probability of default estimation, behavioural SME profiling, and explainable credit scoring — built for East African fintech and lending environments.
 
-Traditional lending systems were never built for modern SMEs.
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
+[![XGBoost](https://img.shields.io/badge/XGBoost-ML_Engine-0066CC?style=flat)](https://xgboost.readthedocs.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)
 
-Most financial institutions still rely heavily on:
-- Collateral-based lending
-- Manual underwriting
-- Static financial ratios
-- Incomplete financial statements
+**Live Demo →** [sme-credit-risk-scoring-app.streamlit.app](https://sme-credit-risk-scoring-app-xadzpa4xvatoo2hk5zm5jj.streamlit.app/)
 
-This creates a major visibility problem.
+## The Problem
 
-Lenders struggle to distinguish genuinely risky businesses from SMEs that simply lack formal or structured financial records. 
-As a result:
-- High-potential SMEs are denied financing
-- Loan approvals become slow and inconsistent
-- Risk pricing becomes inefficient
-- Credit teams spend excessive time on manual analysis
-- Informal businesses remain financially excluded
+Traditional credit systems were not built for SMEs.
 
-The challenge is not the absence of viable SMEs.  
-The challenge is the absence of intelligent, explainable systems capable of understanding incomplete and non-traditional business data.
+Most lenders still rely on collateral, manual underwriting, and static financial ratios — tools designed for large corporates with audited books and credit histories. For the 50 million+ SMEs across Sub-Saharan Africa, this creates a systemic exclusion problem:
 
-# 💡 Solution
+- High-potential businesses are denied financing due to informal records
+- Loan approvals are slow, inconsistent, and difficult to audit
+- Risk teams spend excessive time on manual analysis with no standardised framework
+- Lenders cannot distinguish genuinely risky SMEs from those that simply lack structured documentation
 
-The SME Credit Risk Intelligence Platform is an AI-driven underwriting and risk analytics system designed to transform raw SME financial data into actionable credit intelligence.
+**The gap is not the absence of viable SMEs. It is the absence of intelligent systems capable of interpreting non-traditional business data.**
 
-The platform combines:
-- Machine Learning risk prediction
-- Financial feature engineering
-- Behavioural risk segmentation
-- Explainable AI principles
-- Industry-relative benchmarking
+## Solution
 
-to generate transparent, data-driven lending insights.
+The SME Credit Risk Intelligence Platform is an AI-driven underwriting engine that transforms raw SME financial inputs into structured, explainable credit intelligence.
 
-Rather than replacing underwriters, the platform augments decision-making by providing:
-- Probability of Default (PD) estimation
-- Interpretable credit scoring
-- Risk driver analysis
-- SME behavioural profiling
-- Automated credit assessment reports
+It combines machine learning risk prediction, dynamic feature engineering, behavioural segmentation, and industry benchmarking to generate lending decisions that are fast, transparent, and auditable — without replacing the underwriter.
 
-Built specifically for real-world SME environments, the platform is designed to handle:
-- Incomplete financial records
-- Semi-structured business data
-- Informal SME operational patterns
-- Limited credit history environments
+## Key Features
 
-# 🚀 Project Overview
+### AI-Powered Credit Scoring
+- XGBoost classifier outputs a calibrated **Probability of Default (PD)** between 0 and 1
+- PD converts to an interpretable **credit score** on a 100–1000 scale
+- Automatic classification into **Low / Moderate / High** risk bands
 
-This platform simulates a real-world SME underwriting engine used in fintech and lending institutions.
+### Intelligent Feature Engineering
+Derives 15+ risk indicators from raw SME inputs, including:
 
-Users can:
-- Upload SME financial data (CSV / Excel)
-- Automatically engineer financial risk features
-- Predict Probability of Default (PD)
-- Generate interpretable credit scores
-- Classify SMEs into behavioural personas
-- Compare SME performance against industry benchmarks
-- Download structured credit risk reports
+| Feature | Description |
+|---|---|
+| `debt_to_income_ratio` | Total debt relative to monthly revenue |
+| `profit_margin` | Net margin after expenses |
+| `stress_index` | Composite financial pressure score |
+| `liquidity_risk` | Cash flow exposure to debt obligations |
+| `payment_stress` | Late + missed payment combined signal |
+| `cash_flow_variability` | Expense stability relative to revenue |
+| `repayment_history_score` | Normalised payment track record |
 
-# 🧠 Key Capabilities
+### Behavioural SME Segmentation
+SMEs are classified into four behavioural personas based on financial patterns:
 
-## 📊 AI-Powered Credit Risk Prediction
-- Predicts Probability of Default (PD) using an XGBoost-based ML pipeline
-- Converts model outputs into an interpretable credit score
-- Categorizes SMEs into risk bands
+| Persona | Signal |
+|---|---|
+| 🏛️ **Stable SME** | Consistent margins, low leverage, strong repayment |
+| 🚀 **Growth SME** | Expanding revenue, elevated DTI acceptable at stage |
+| 🔄 **Seasonal SME** | Cyclical revenue — repayment timing matters |
+| ⚠️ **Distressed SME** | High stress index, payment irregularities, compressed margins |
 
-## ⚙️ Intelligent Financial Feature Engineering
+### Industry Benchmarking
+Radar chart comparison of SME performance against industry-level reference metrics across profitability, leverage, repayment score, and liquidity — contextualising risk relative to peers.
 
-Automatically derives risk indicators from raw SME data, including:
-- Debt-to-Income Ratio
-- Profit Margin
-- Revenue Growth
-- Cash Flow Stability
-- Liquidity Pressure
-- Payment Stress
-- Financial Stress Indicators
+### Batch Portfolio Mode
+Upload a CSV or Excel file of multiple SMEs and get:
+- Portfolio-wide risk distribution and score histogram
+- Credit Score vs PD scatter plot by risk band
+- Full drill-down into any individual SME from the batch
 
-The platform also supports adaptive handling of missing or incomplete SME financial records.
+### Automated Underwriter Summary
+Natural-language credit memo generated per SME — including margin analysis, DTI assessment, payment behaviour flags, and a structured lending recommendation.
 
-## 🧠 Behavioural SME Segmentation
+## System Architecture
 
-Classifies SMEs into behavioural risk personas such as:
-- Stable SMEs
-- Growth SMEs
-- Seasonal SMEs
-- Distressed SMEs
-
-This enables lenders to move beyond static scoring toward behavioural risk understanding.
-
-## 🏭 Industry Benchmarking
-
-Compares SME performance against industry-level reference metrics for:
-- Profitability
-- Leverage
-- Liquidity
-- Risk exposure
-
-This helps contextualize SME performance relative to peers.
-
-## 🔍 Explainable Risk Intelligence
-
-Provides transparent breakdowns of the major drivers influencing credit risk, including:
-- Debt pressure
-- Cash flow instability
-- Repayment behaviour
-- Revenue deterioration
-
-Designed to support explainable and auditable lending decisions.
-
-## 📄 Automated Credit Risk Reporting
-
-Generates downloadable risk reports containing:
-- Credit Score
-- PD Score
-- Risk Classification
-- SME Persona
-- Key Risk Drivers
-- Financial Risk Summary
-
-# 🏗️ System Architecture
-
-```text
-Raw SME Financial Data
+```
+Raw SME Financial Data (CSV / Excel / Form Input)
         ↓
-Data Cleaning & Standardization
+Column Standardisation Layer
         ↓
-Dynamic Feature Engineering
+Dynamic Feature Engineering (15+ derived features)
         ↓
-Feature Alignment Layer
+Feature Alignment (training schema enforcement)
         ↓
-Machine Learning Risk Prediction
+XGBoost Risk Prediction  →  Probability of Default
         ↓
-Explainability & Risk Interpretation
+Credit Score Derivation  +  Risk Band Classification
         ↓
-Behavioural Segmentation
+Behavioural Segmentation  +  Industry Benchmarking
         ↓
-Industry Benchmarking
-        ↓
-Credit Risk Report Generation
+Underwriter Summary  +  Drill-Down Report
 ```
 
-# 🧪 Technology Stack
+## Tech Stack
 
-| Component | Technology |
+| Layer | Technology |
 |---|---|
 | Frontend | Streamlit |
-| Programming Language | Python |
-| Data Processing | Pandas, NumPy |
-| Machine Learning | Scikit-learn, XGBoost |
-| Visualization | Plotly |
+| Language | Python 3.11 |
+| ML Model | XGBoost + Scikit-learn |
+| Feature Engineering | Pandas, NumPy |
+| Visualisation | Plotly |
 | Model Persistence | Joblib |
 
-# 🚀 Core Features
-
-- CSV / Excel SME data upload
-- Automated financial preprocessing
-- Real-time risk scoring
-- Explainable AI risk breakdowns
-- Behavioural SME classification
-- Industry benchmarking dashboard
-- Scenario-based risk simulation
-- Downloadable PDF risk reports
-
-# 📌 Real-World Design Considerations
-
-This system was built with practical SME lending constraints in mind:
-- Missing financial records
-- Informal business activity
-- Non-standard reporting formats
-- Need for underwriting transparency
-- Explainability requirements in financial decision-making
-  
-# 🔮 Future Enhancements
-
-- SHAP explainability dashboard
-- Real-time risk scoring API
-- Portfolio-level credit analytics
-- Dynamic industry benchmarking
-- PostgreSQL integration
-- Cloud-native deployment (AWS / Azure)
-- Alternative data integration (mobile money / transaction data)
-- 
-# 🚀 Live Demo
-  Local URL: http://localhost:8502
-  Network URL: http://192.168.1.184:8502
-  
-## Streamlit Cloud
-https://sme-credit-risk-scoring-app-xadzpa4xvatoo2hk5zm5jj.streamlit.app/
-
-# ⚙️ Installation
+## Getting Started
 
 ```bash
-git clone https://github.com/kerubobosire254/sme-credit-risk-platform.git
-
-cd sme-credit-risk-platform
-
+git clone https://github.com/kerubobosire254/sme-credit-risk-scoring-app.git
+cd sme-credit-risk-scoring-app
 pip install -r requirements.txt
-```
-
-# ▶️ Run the Application
-
-```bash
 streamlit run app.py
 ```
 
-# ⚠️ Disclaimer
+**Required model files** :
+```
+credit_risk_model.pkl
+kmeans_model.pkl
+training_features.pkl
+```
 
-This project is a research and educational prototype designed to simulate SME credit underwriting workflows. It is not an official financial institution credit scoring system.
+### Input Schema
 
-# 👩🏽‍💻 Author
+Your CSV/Excel file should include these columns (flexible naming supported):
+
+```
+sme_name, monthly_revenue_avg, monthly_expenses_avg, total_debt,
+years_in_operation, num_transactions_per_month, avg_transaction_value,
+late_payment_count, missed_payments, industry, location
+```
+
+The platform handles non-standard column names via an automatic mapping layer.
+
+---
+
+## Design Considerations
+
+This system was built with real SME lending constraints in mind:
+
+- **Incomplete records** — feature engineering degrades gracefully with missing inputs
+- **Informal activity** — derived features proxy cash flow behaviour without requiring full accounts
+- **Explainability** — every score has a visible risk driver breakdown; no black-box outputs
+- **Auditability** — underwriter summaries are reproducible and data-grounded
+
+## Roadmap
+
+- [ ] SHAP explainability dashboard
+- [ ] Real-time scoring API (FastAPI)
+- [ ] PDF credit report export
+- [ ] Alternative data integration (M-Pesa / mobile money transaction feeds)
+- [ ] PostgreSQL portfolio persistence
+- [ ] Cloud deployment (AWS / Azure)
+- [ ] Dynamic industry benchmark calibration
+
+## Disclaimer
+
+This is a research and educational prototype simulating SME credit underwriting workflows. It is not an official financial institution credit scoring system and should not be used as the sole basis for lending decisions.
+
+
+## Author
+
 **Kerubo Bosire**  
-Actuarial Science | Risk Analytics | Machine Learning
+Actuarial Science · Risk Analytics · Machine Learning  
+[GitHub](https://github.com/kerubobosire254) · [LinkedIn](https://linkedin.com/in/kerubo-bosire-364523283)
 
