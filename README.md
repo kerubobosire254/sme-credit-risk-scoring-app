@@ -7,7 +7,11 @@
 [![XGBoost](https://img.shields.io/badge/XGBoost-ML_Engine-0066CC?style=flat)](https://xgboost.readthedocs.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)
 
-**Live Demo →** [sme-credit-risk-scoring-app.streamlit.app](https://sme-credit-risk-scoring-app-xadzpa4xvatoo2hk5zm5jj.streamlit.app/)
+**Live Demo →** https://sme-credit-risk-scoring-app-xadzpa4xvatoo2hk5zm5jj.streamlit.app/
+
+### SNIPPET OF THE APP
+
+<img width="1260" height="564" alt="image" src="https://github.com/user-attachments/assets/7e34c81e-5eac-4fa7-8172-40141c27ee2c" />
 
 ## The Problem
 
