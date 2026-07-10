@@ -1,6 +1,6 @@
 # SME Credit Risk Intelligence Platform
 
-> XGBoost-powered probability of default estimation, behavioural SME profiling, and explainable credit scoring — built for East African fintech and lending environments.
+> XGBoost-powered probability of default estimation, behavioural SME profiling, and explainable credit scoring.
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
@@ -17,7 +17,7 @@
 
 Traditional credit systems were not built for SMEs.
 
-Most lenders still rely on collateral, manual underwriting, and static financial ratios — tools designed for large corporates with audited books and credit histories. For the 50 million+ SMEs across Sub-Saharan Africa, this creates a systemic exclusion problem:
+Most lenders still rely on collateral, manual underwriting, and static financial ratios tools designed for large corporates with audited books and credit histories. For the 50 million+ SMEs across Sub-Saharan Africa, this creates a systemic exclusion problem:
 
 - High-potential businesses are denied financing due to informal records
 - Loan approvals are slow, inconsistent, and difficult to audit
@@ -30,7 +30,7 @@ Most lenders still rely on collateral, manual underwriting, and static financial
 
 The SME Credit Risk Intelligence Platform is an AI-driven underwriting engine that transforms raw SME financial inputs into structured, explainable credit intelligence.
 
-It combines machine learning risk prediction, dynamic feature engineering, behavioural segmentation, and industry benchmarking to generate lending decisions that are fast, transparent, and auditable — without replacing the underwriter.
+It combines machine learning risk prediction, dynamic feature engineering, behavioural segmentation, and industry benchmarking to generate lending decisions that are fast, transparent, and auditable without replacing the underwriter.
 
 ## Key Features
 
